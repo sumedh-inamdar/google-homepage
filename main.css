@@ -1,17 +1,44 @@
 main {
-  display: grid;
 }
 
-#main {
-  max-width: 300px;
-  margin: 20px auto;
-  margin-top: 100px;
+#logo {
+  text-align: center;
+  margin-top: 250px;
+  margin-bottom: 30px;
 }
 
 form {
-  margin: 20px auto;
+  text-align: center;
 }
 
-#search {
-  width: 350px;
+.sField {
+  margin-bottom: 25px;
+}
+
+.searchField {
+  width: 500px;
+  max-width: 80%;
+  height: 40px;
+  border-width: thin;
+  border-color: rgb(212, 212, 212);
+  border-radius: 25px;
+  border-style: solid;
+  text-indent: 40px;
+  font-size: 1.2em;
+}
+
+.searchLogo {
+  position: relative;
+  top: 4px;
+  left: 40px;
+  opacity: 0.4;
+  height: 20px;
+  width: auto;
+}
+.searchButton {
+  border: 0;
+  line-height: 2.5;
+  padding: 0px 20px;
+  margin: 5px;
+  background-color: rgb(247, 247, 247);
 }
