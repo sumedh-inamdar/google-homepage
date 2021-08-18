@@ -3,9 +3,9 @@
   margin-top: 250px;
 }
 
-@media screen and (max-height: 600px) {
+@media screen and (max-height: 850px) {
   .container {
-    margin-top: 125px;
+    margin-top: max(50px, calc(250px - (850px - 100vh)));
   }
 }
 
