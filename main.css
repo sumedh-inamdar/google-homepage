@@ -1,14 +1,18 @@
-main {
+.container {
+  text-align: center;
+  margin-top: 250px;
+}
+
+@media screen and (max-height: 600px) {
+  .container {
+    margin-top: 125px;
+  }
 }
 
 #logo {
-  text-align: center;
-  margin-top: 250px;
   margin-bottom: 30px;
-}
-
-form {
-  text-align: center;
+  max-width: 100%;
+  height: auto;
 }
 
 .sField {
