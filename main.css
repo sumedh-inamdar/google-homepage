@@ -34,6 +34,7 @@ ul li button {
   margin-top: -8px;
   background: #1a73e8;
   color: #fff;
+  font: 14px Roboto, Arial, sans-serif;
   border: 1px solid transparent;
   border-radius: 4px;
 }
