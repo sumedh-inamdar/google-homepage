@@ -52,13 +52,13 @@ ul li button:hover {
 }
 
 /* Main */
-.container {
+.main_container {
   text-align: center;
   margin-top: 250px;
 }
 
 @media screen and (max-height: 850px) {
-  .container {
+  .main_container {
     margin-top: max(50px, calc(250px - (850px - 100vh)));
   }
 }
@@ -110,4 +110,53 @@ ul li button:hover {
 .searchButton:hover {
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
   border: 1px solid #dadce0;
+}
+/* Footer */
+.footer_container {
+  display: grid;
+  grid-template-columns: 375px auto 250px;
+  height: 47px;
+  background: #f2f2f2;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.leftGrid {
+  display: grid;
+  grid-template-columns: 35% 17% 45%;
+  width: 100%;
+  height: 100%;
+}
+
+.rightGrid {
+  display: grid;
+  grid-template-columns: 35% 22% 37%;
+  width: 100%;
+  height: 100%;
+}
+
+.centerFoot {
+  padding-right: 125px;
+}
+.footer_container div {
+  justify-self: center;
+  align-self: center;
+}
+
+.footer_container div a {
+  text-decoration: none;
+  font: 14px Roboto, Arial, sans-serif;
+  color: #70757a;
+}
+
+.footer_container div a:hover {
+  text-decoration: underline;
+}
+
+.footer_container div img {
+  width: 12px;
+  height: auto;
+  padding-right: 3px;
 }
