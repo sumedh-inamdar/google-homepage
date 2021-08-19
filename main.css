@@ -1,3 +1,4 @@
+/* Navigation Bar */
 nav {
   overflow: hidden;
 }
@@ -11,6 +12,35 @@ ul {
 
 ul li {
   margin: 10px;
+  margin-top: 15px;
+}
+
+ul li a {
+  text-decoration: none;
+  font: 14px Roboto, Arial, sans-serif;
+  color: black;
+}
+
+ul li a:hover {
+  text-decoration: underline;
+}
+
+ul li input {
+  margin-top: -3px;
+}
+
+ul li button {
+  padding: 9px 23px;
+  margin-top: -8px;
+  background: #1a73e8;
+  color: #fff;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+ul li button:hover {
+  background: #2b7de9;
+  cursor: pointer;
 }
 
 .left {
@@ -21,6 +51,7 @@ ul li {
   float: right;
 }
 
+/* Main */
 .container {
   text-align: center;
   margin-top: 250px;
@@ -54,6 +85,10 @@ ul li {
   font-size: 1.2em;
 }
 
+.searchField:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+}
+
 .searchLogo {
   position: relative;
   top: 4px;
@@ -68,4 +103,11 @@ ul li {
   padding: 0px 20px;
   margin: 5px;
   background-color: rgb(247, 247, 247);
+  font-family: arial, sans-serif;
+  font-size: 14px;
+}
+
+.searchButton:hover {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  border: 1px solid #dadce0;
 }
