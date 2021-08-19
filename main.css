@@ -110,6 +110,7 @@ ul li button:hover {
 .searchButton:hover {
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
   border: 1px solid #dadce0;
+  cursor: pointer;
 }
 /* Footer */
 .footer_container {
@@ -122,6 +123,24 @@ ul li button:hover {
   display: grid;
   grid-template-columns: 375px auto 250px;
   grid-template-areas: "left center right";
+}
+
+@media screen and (max-height: 395px) and (min-width: 1200px) {
+  .footer_container {
+    position: relative;
+  }
+}
+
+@media screen and (max-height: 442px) and (max-width: 1200px) and (min-width: 600px) {
+  .footer_container {
+    position: relative;
+  }
+}
+
+@media screen and (max-height: 489px) and (max-width: 600px) {
+  .footer_container {
+    position: relative;
+  }
 }
 
 .leftGrid {
